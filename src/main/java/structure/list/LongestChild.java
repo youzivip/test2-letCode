@@ -1,8 +1,6 @@
-package list;
+package structure.list;
 
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  *
@@ -97,6 +95,6 @@ public class LongestChild {
             strs[i]= nums[i]+"";
             s = s+nums[i];
         }
-        System.out.println(lengthOfLongestSubstring(s));
+        System.out.println(lengthOfLongestSubstring("1234546789"));
     }
 }
